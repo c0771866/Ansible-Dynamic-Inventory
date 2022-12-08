@@ -8,6 +8,6 @@ resource "aws_instance" "app" {
     key_name      =  "donrabii"
     tags = {
         Name = " tomcat"
-        Environment = "dev"
+        Environment = "staging"
   }  
 }
