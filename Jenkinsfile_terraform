@@ -5,7 +5,7 @@ pipeline{
 	stages{
 		stage('clonecode'){
 			steps{
-				git ""
+				git "https://github.com/c0771866/Ansible-Dynamic-Inventory.git"
 			}
 		}
 		stage('setup'){
